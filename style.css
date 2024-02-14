@@ -1,4 +1,4 @@
-:root {
+:root{
     --gradient: linear-gradient(
         to bottom right,
         green,
@@ -6,7 +6,7 @@
         yellow
     )
 }
-.cabecalho {
+.cabecalho{
     background-image: url('paraná apenas.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@
     padding: 26px 0;
 }
 
-.cabecalho-imagem {
+.cabecalho-imagem{
     background-image: var(--gradient);
 
     background-clip: text;
@@ -28,7 +28,7 @@
     color: transparent;
 }
 
-.btn-link {
+.btn-link{
     text-decoration: none;
     text-align: center;
     padding: 0;
@@ -37,13 +37,13 @@
     color: white;
 }
 
-.cabecalho-lista {
+.cabecalho-lista{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
-.cabecalho-lista-item {
+.cabecalho-lista-item{
     align-items: center; /* centralizar */
     background-image: linear-gradient(
         to top right, skyblue, blue
@@ -54,7 +54,7 @@
     border-radius: 10px;
 }
 
-.eu {
+.eu{
     background-color: rgba(241, 241, 241, 0.8); /* Aumenta a transparência do quadrado */
     width: 21%;
     margin: auto;
@@ -66,18 +66,18 @@
     text-align: justify;
     font-family: 'Georgia', serif; /* Muda a fonte da seção sobre */
     position: absolute;
-    bottom: -239.3%; /* Move a seção para baixo */
+    bottom: 0%; /* Move a seção para baixo */
     left: 0%;
 }
 
-.slider {
+.slider{
     margin: 0 auto;
     width: 800px;
     height: 500px;
     overflow: hidden;
 }
 
-.slides {
+.slides{
     width: 400%;
     height: 400px;
     display: flex;
@@ -85,20 +85,21 @@
     top: 5%;
 }
 
-.slides input {
+.slides input{
     display: none;
 }
 
-.slide {
+.slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
-.slide img {
+.slide img{
     width: 800px;
 }
 
-.manual-navigation {
+.manual-navigation{
     position: absolute;
     width: 800px;
     margin-top: 50px;
@@ -106,7 +107,7 @@
     justify-content: center;
 }
 
-.manual-btn {
+.manual-btn{
     border: 2px solid purple;
     padding: 5px;
     border-radius: 10px;
@@ -114,50 +115,110 @@
     transition: 0.5s;
 }
 
-.manual-btn:not(:last-child) {
+.manual-btn:not(:last-child){
     margin-right: 40px;
 }
 
-.manual-btn:hover {
+.manual-btn:hover{
     background-color: purple;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked ~ .first{
     margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked ~ .first{
     margin-left: -25%;
 }
 
-#radio3:checked ~ .first {
+#radio3:checked ~ .first{
     margin-left: -50%;
 }
 
-#radio4:checked ~ .first {
+#radio4:checked ~ .first{
     margin-left: -75%;
 }
 
-#radio5:checked ~ .first {
+#radio5:checked ~ .first{
     margin-left: -100%;
 }
 
-#radio6:checked ~ .first {
+#radio6:checked ~ .first{
     margin-left: -125%;
 }
 
-#radio7:checked ~ .first {
+#radio7:checked ~ .first{
     margin-left: -150%;
 }
 
-#radio8:checked ~ .first {
+#radio8:checked ~ .first{
     margin-left: -175%;
 }
 
-#radio9:checked ~ .first {
+#radio9:checked ~ .first{
     margin-left: -200%;
 }
 
-#radio10:checked ~ .first {
+#radio10:checked ~ .first{
     margin-left: -225%;
+}
+
+.navigation-auto div{
+    border: 2px solid purple;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 425px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: purple;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: purple;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: purple;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: purple;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: purple;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: purple;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background: purple;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8{
+    background: purple;
+}
+
+#radio9:checked ~ .navigation-auto .auto-btn9{
+    background: purple;
+}
+
+#radio10:checked ~ .navigation-auto .auto-btn10{
+    background: purple;
 }
