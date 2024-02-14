@@ -1,21 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .cabecalho {
-    background-color: white;
+    background-image: url('paraná apenas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
 }
 
 .cabecalho-imagem {
-    width: -150%;
-    height: 5%;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .cabecalho-lista {
-    display: inline-block;
-    margin: 0 16px;
-    padding: 0 10px;
+    align-items: center;
+    border-radius: 10px; /* Bordas arredondadas */
+    align-items: center; /* centralizar */
+    justify-content: center; /* centralizar o conteúdo */
+    display: flex;
+    position: initial;
+    top: 100%;
+}
+.cabecalho-lista-item1 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item2 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item3 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item4 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item5 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item6 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item7 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item8 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item9 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.cabecalho-lista-item10 {
+    display: inline-block; /* uma palavra na frente da outra*/
+    align-items: center; /* centralizar */
+    background-image: linear-gradient(
+        to top right, skyblue, blue
+    );
+    justify-content: center; /* centralizar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 20px;
+    padding: 0;
+}
+.eu {
+    background-color: rgba(241, 241, 241, 0.8); /* Aumenta a transparência do quadrado */
+    width: 21%;
+    margin: auto;
+    border-radius: 0px;
+    align-items: center; /* centralizar */
+    justify-content: center; /* centralizar o conteúdo */
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(235, 233, 233, 0.801);
+    text-align: justify;
+    font-family: 'Georgia', serif; /* Muda a fonte da seção sobre */
+    position: absolute;
+    bottom: -261%; /* Move a seção para baixo */
+    left: 0%;
 }
