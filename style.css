@@ -82,7 +82,7 @@
     height: 400px;
     display: flex;
     position: relative;
-    top: 5%;
+    top: 2%;
 }
 
 .slides input{
@@ -97,6 +97,7 @@
 
 .slide img{
     width: 800px;
+    border-radius: 30px;
 }
 
 .manual-navigation{
@@ -174,7 +175,7 @@
 .navigation-auto {
     position: absolute;
     width: 800px;
-    margin-top: 425px;
+    margin-top: 440px;
     display: flex;
     justify-content: center;
 }
