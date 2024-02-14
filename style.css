@@ -223,3 +223,9 @@
 #radio10:checked ~ .navigation-auto .auto-btn10{
     background: purple;
 }
+
+@media screen and (max-width: 900px) {
+    .html {
+        display: none
+    }
+}
